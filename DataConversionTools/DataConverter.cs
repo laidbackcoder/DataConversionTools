@@ -49,10 +49,10 @@ namespace PT.DataConversionTools
 		{
 			string output = string.Empty;
 
-            foreach (byte b in bytes)
-            {
-                output += string.Format("{0:X2}", b).ToLower();
-            }
+			foreach (byte b in bytes)
+			{
+				output += string.Format("{0:X2}", b).ToLower();
+			}
             
             return output;
 		}
