@@ -1,6 +1,6 @@
 ﻿// <summary>
 // Project Name         :   Data Conversion Tools
-// Project Description  :   A simple C# Library to for working with Binary, Hex and Strings
+// Project Description  :   A simple C# Library for working with Binary, Hex and Strings
 // Project Website      :   https://github.com/laidbackcoder/DataConversionTools
 // License              :   MIT License
 // License URL          :   https://github.com/laidbackcoder/DataConversionTools/blob/master/LICENSE
