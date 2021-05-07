@@ -54,7 +54,7 @@ namespace PT.DataConversionTools
 				output += string.Format("{0:X2}", b).ToLower();
 			}
             
-            return output;
+			return output;
 		}
 				
 		/// <summary>
