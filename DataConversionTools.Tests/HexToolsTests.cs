@@ -62,5 +62,16 @@ namespace PT.DataConversionTools.Tests
 				HexTools.CheckHex("AAG");
 			});
 		}
+
+		[Test]
+		public void HexTools_CheckHex_ThrowsExceptionWhenInputIsEmpty()
+		{
+			Assert.Throws<InvalidHexException>(() =>
+			{
+				HexTools.CheckHex("");
+			});
+		}
+
+		//TODO: Add Tests for Hex Formatting
 	}
 }

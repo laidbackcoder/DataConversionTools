@@ -121,7 +121,7 @@ namespace PT.DataConversionTools
 			/// <returns>True if Length is Valid</returns>
 			private static bool HexLengthValid(string hexStr)
 			{
-				return hexStr.Length % 2 == 0;
+				return hexStr.Length % 2 == 0 && hexStr.Length > 0;
 			}
 		
 			/// <summary>
