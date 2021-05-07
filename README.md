@@ -1,2 +1,2 @@
 # Data Conversion Tools
-A simple C# Library to for working with Binary, Hex and Strings.
+A simple C# Library for working with Binary, Hex and Strings.
