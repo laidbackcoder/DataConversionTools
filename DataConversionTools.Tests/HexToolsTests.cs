@@ -53,5 +53,14 @@ namespace PT.DataConversionTools.Tests
 	           HexTools.CheckHex("0123456789ABCDEF");
             });
 		}
+
+		[Test]
+		public void HexTools_CheckHex_ThrowsExceptionWhenNumberOfHexCharsAreOddAndHexContainsInvalidChars()
+		{
+			Assert.Throws<InvalidHexException>(() =>
+			{
+				HexTools.CheckHex("AAG");
+			});
+		}
 	}
 }

@@ -21,7 +21,7 @@ namespace PT.DataConversionTools
 		/// <param name="hexStr">Hex String</param>
 		public static void CheckHex(string hexStr)
 		{
-			if (!HexLengthValid(hexStr) && !HexCharsValid(hexStr))
+			if (!HexValid(hexStr))
 			{
 				throw new InvalidHexException("Hex String contains invalid characters, and has an odd number of characters");
 			}
