@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base64ToolsTests.cs" />
     <Compile Include="DataConverterTests.cs" />
     <Compile Include="HexToolsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
