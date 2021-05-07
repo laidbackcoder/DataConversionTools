@@ -23,7 +23,7 @@ namespace PT.DataConversionTools
 		{
 			if (!Base64Valid(base64Str))
 			{
-				throw new InvalidBase64Exception("Base64 String contains invalid characters, and has an Invalid number of characters");
+				throw new InvalidBase64Exception("Base64 String contains invalid characters, and has an invalid number of characters");
 			}
 			else if (!Base64LengthValid(base64Str))
 			{
@@ -71,7 +71,7 @@ namespace PT.DataConversionTools
 			/// <returns>True if Length is Valid</returns>
 			private static bool Base64LengthValid(string base64Str)
 			{
-				return base64Str.Trim().Length % 4 == 0;
+				return base64Str.Trim().Length % 4 == 0 && base64Str.Length > 0;
 			}
 		
 		#endregion
